@@ -132,19 +132,19 @@ python tools/eval.py -m ShuffleV2 -c output_10/cifar100_baselines/dkd,res32x4,sh
 
 以下为Pytorch架构和Jittor架构测试精度对齐实验和推理速度对齐实验的实验结果：
 
-![表1](.\README_Image\表1.png)
+![表1](README_Image/表1.png)
 
 **说明：表中Paper行数值为原论文提供。△行绿色数值为同比增长项。Fluctuation行数值为|△÷Pytorch|%，表示Jittor架构相对于Pytorch架构的震荡，均在0.5%以内，属于可接受范围。**
 
-![表2](.\README_Image\表2.png)
+![表2](README_Image/表2.png)
 
 **说明：表中Paper行数值为原论文提供。△行绿色数值为同比增长项。Fluctuation行数值为|△÷Pytorch|%，表示Jittor架构相对于Pytorch架构的震荡，基本在1%以内，属于可接受范围。**
 
-![表3](.\README_Image\表3.png)
+![表3](README_Image/表3.png)
 
 **说明：表中Mean_Pytorch行数值为Pytorch行三次测试结果的平均值，Mean_Jittor同理。△行红色数值为Jittor架构相比于Pytorch架构的推理速度减少时间。Growth行数值为(△÷Pytorch)%，使用Jittor实现的相同架构模型的推理速度同比增长30%以上，显著提高模型推理速度。**
 
-![表4](.\README_Image\表4.png)
+![表4](README_Image/表4.png)
 
 **说明：表中Mean_Pytorch行数值为Pytorch行三次测试结果的平均值，Mean_Jittor同理。△行红色数值为Jittor架构相比于Pytorch架构的推理速度减少时间。Growth行数值为(△÷Pytorch)%，使用Jittor实现的相同架构模型的推理速度同比增长30%以上，显著提高模型推理速度。**
 
@@ -201,11 +201,11 @@ best_acc	75.90
 
 模型ResNet32×4-ResNet8×4的Pytorch架构和Jittor架构训练损失曲线和精度曲线对齐实验：
 
-![output1](.\README_Image\output1.png)
+![output1](README_Image/output1.png)
 
 模型ResNet32×4-ShuffleNet-V1的Pytorch架构和Jittor架构训练损失曲线和精度曲线对齐实验：
 
-![output2](.\README_Image\output2.png)
+![output2](README_Image/output2.png)
 
 其余模型在Pytorch架构和Jittor架构下的训练损失曲线和精度曲线对齐结果分别位于文件夹mdistiller-master-jittor/loss中。
 
